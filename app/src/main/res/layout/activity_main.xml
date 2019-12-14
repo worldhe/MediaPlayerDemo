@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用VideoView播放本地视频"/>
+
+    <Button
+        android:id="@+id/btn_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用VideoView播放HTTP/RTSP视频"/>
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用SurfaceView播放本地视频"/>
+
+    <Button
+        android:id="@+id/btn_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用SurfaceView播放HTTP/RTSP视频"/>
+</LinearLayout>
