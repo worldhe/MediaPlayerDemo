@@ -36,10 +36,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 break;
             case R.id.btn_c:
-
+                Intent intent_c = new Intent(this, SurfaceViewActivity.class);
+                startActivity(intent_c);
                 break;
             case R.id.btn_d:
-
+                Intent intent_d = new Intent(this, SurfaceViewHTTPActivity.class);
+                startActivity(intent_d);
                 break;
             default:
                 break;
